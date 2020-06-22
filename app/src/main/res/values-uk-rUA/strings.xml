@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TiManager</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">TiManager</string>
+    <string name="nav_header_subtitle">Створено: XXI GENERATION</string>
+    <string name="nav_header_desc">Панель навігації</string>
+    <string name="action_settings">Налаштування</string>
+    <string name="default_notification_channel_id">За замовчуванням</string>
+
+    <string name="my_timetable">Відкрити мій розпорядок</string>
+    <string name="created_timetable">Відкрити створений розпорядок</string>
+    <string name="mt_title">Мій розпорядок</string>
+    <string name="ct_title">Створений розпорядок</string>
+    <string name="add_event">Додати подію</string>
+
+    <string name="event_name">Назва події</string>
+    <string name="event_date">Вибір дати:</string>
+    <string name="event_date_button">Змінити дату</string>
+    <string name="event_time_button">Змінити час</string>
+    <string name="event_start">Можливо розпочати із:</string>
+    <string name="event_finish">Можливо закінчити до:</string>
+    <string name="event_duration">Тривалість (хвилини):</string>
+    <string name="event_priority">Пріорітет:</string>
+
+    <string name="event_u_name">Назва повинна складатися мінімум з 4 символів</string>
+    <string name="event_u_finish">Час закінчення не може бути менший ніж час бочатку</string>
+    <string name="event_u_duration">Тривалість події не може бути меншою, ніж виділений час</string>
+    <string name="event_u_duration_ne">Ви не ввели тривалість події</string>
+    <string name="event_u_created">Створено подію з унікальним номером: {number}</string>
+
+    <string name="program_exit">Вихід</string>
+    <string name="program_exit_cancel">Ні</string>
+    <string name="program_exit_title">Закрити TiManager</string>
+    <string name="program_exit_about">Ви впевнені?</string>
+
+    <string name="home_second">Home Second</string>
+    <string name="menu">Меню</string>
+    <string-array name="priorities_list">
+        <item>Обов\'язкова</item>
+        <item>Важлива</item>
+        <item>Середнього значення</item>
+        <item>Низького значення</item>
+        <item>Найменш важлива</item>
+    </string-array>
+</resources>

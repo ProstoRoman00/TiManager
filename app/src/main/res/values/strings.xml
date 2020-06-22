@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">TiManager</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">TiManager</string>
+    <string name="nav_header_subtitle">Made by: XXI GENERATION</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="default_notification_channel_id">default</string>
+
+    <string name="my_timetable">Open my timetable</string>
+    <string name="created_timetable">Open created timetable</string>
+    <string name="ct_title">Created timetable</string>
+    <string name="mt_title">My timetable</string>
+    <string name="add_event">Add new event</string>
+
+    <string name="event_name">Name of the event:</string>
+    <string name="event_date">Chose date:</string>
+    <string name="event_date_button">Change date</string>
+    <string name="event_time_button">Change time</string>
+    <string name="event_start">Can be started from:</string>
+    <string name="event_finish">Can be finished before:</string>
+    <string name="event_duration">Duration (minutes):</string>
+    <string name="event_priority">Priority:</string>
+
+    <string name="event_u_name">Name must consist at least 4 characters</string>
+    <string name="event_u_finish">You can\'t finish event before starting them</string>
+    <string name="event_u_duration">Duration is greater then active time!</string>
+    <string name="event_u_duration_ne">You have not entered duration!</string>
+    <string name="event_u_created">Event created with unique number: {number}</string>
+
+    <string name="program_exit">Exit</string>
+    <string name="program_exit_cancel">No</string>
+    <string name="program_exit_title">Close TiManager</string>
+    <string name="program_exit_about">Are you sure?</string>
+
+    <string name="home_second">Home Second</string>
+    <string name="menu">Menu</string>
+    <string-array name="priorities_list">
+        <item>Necessary</item>
+        <item>Important</item>
+        <item>Regular</item>
+        <item>Low</item>
+        <item>The least</item>
+    </string-array>
+</resources>

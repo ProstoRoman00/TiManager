@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/main_page">
+
+    <fragment
+        android:id="@+id/main_page"
+        android:name="com.world18.timanager.ui.mainpage.MainPage"
+        android:label="@string/menu"
+        tools:layout="@layout/main_page">
+
+        <action
+            android:id="@+id/action_my_timetable_to_add_event"
+            app:destination="@id/add_event" />
+        <action
+            android:id="@+id/action_my_timetable_to_created_timetable"
+            app:destination="@id/created_timetable" />
+        <action
+            android:id="@+id/action_main_page_to_my_timetable"
+            app:destination="@id/my_timetable" />
+    </fragment>
+    <fragment
+        android:id="@+id/my_timetable"
+        android:name="com.world18.timanager.ui.mytimetable.MyTimetable"
+        android:label="@string/mt_title"
+        tools:layout="@layout/my_timetable">
+        <action
+            android:id="@+id/action_my_timetable_to_add_event2"
+            app:destination="@id/add_event" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/created_timetable"
+        android:name="com.world18.timanager.ui.timetable.Timetable"
+        android:label="@string/ct_title"
+        tools:layout="@layout/timetable" >
+        <action
+            android:id="@+id/action_created_timetable_to_add_event"
+            app:destination="@id/add_event" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/add_event"
+        android:name="com.world18.timanager.ui.events.NewEvent"
+        android:label="@string/add_event"
+        tools:layout="@layout/new_event" />
+</navigation>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TiManager</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">TiManager</string>
+    <string name="nav_header_subtitle">Создано: XXI GENERATION</string>
+    <string name="nav_header_desc">Панель навигации</string>
+    <string name="action_settings">Настройки</string>
+    <string name="default_notification_channel_id">По умолчанию</string>
+
+    <string name="my_timetable">Открыть мое расписание</string>
+    <string name="created_timetable">Открыть созданное расписание</string>
+    <string name="mt_title">Мое расписание</string>
+    <string name="ct_title">Созданное расписание</string>
+    <string name="add_event">Добавить событие</string>
+
+    <string name="event_name">Название события</string>
+    <string name="event_date">Выбор даты:</string>
+    <string name="event_date_button">Изменить дату</string>
+    <string name="event_time_button">Изменить время</string>
+    <string name="event_start">Возможно начать с:</string>
+    <string name="event_finish">Возможно закончить до:</string>
+    <string name="event_duration">Длительность (минуты):</string>
+    <string name="event_priority">Приоритет:</string>
+
+    <string name="event_u_name">Название должно содержать как минимум 4 символа</string>
+    <string name="event_u_finish">Время окончания не может быть раньше, чем время начала.</string>
+    <string name="event_u_duration">Длительность события должна быть не больше выделенного для активности времени</string>
+    <string name="event_u_duration_ne">Вы не ввели длительность собитыя!</string>
+    <string name="event_u_created">Событие с уникальным номером: {number}, создано</string>
+
+    <string name="program_exit">Выход</string>
+    <string name="program_exit_cancel">Нет</string>
+    <string name="program_exit_title">Закрыть TiManager</string>
+    <string name="program_exit_about">Вы уверены?</string>
+
+    <string name="home_second">Home Second</string>
+    <string name="menu">Меню</string>
+    <string-array name="priorities_list">
+        <item>Обязательный</item>
+        <item>Важный</item>
+        <item>Стандартный</item>
+        <item>Низкий</item>
+        <item>Самый низкий</item>
+    </string-array>
+
+</resources>

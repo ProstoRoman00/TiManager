@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/main_page"
+            android:icon="@android:drawable/ic_dialog_dialer"
+            android:title="@string/menu" />
+        <item
+            android:id="@+id/my_timetable"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/my_timetable" />
+        <item
+            android:id="@+id/created_timetable"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/created_timetable" />
+        <item
+            android:id="@+id/add_event"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/add_event" />
+    </group>
+</menu>
